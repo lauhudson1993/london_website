@@ -2,22 +2,64 @@
 <html>
 <head>
   <title>Quirky London</title>
-  <script src='js/jquery-3.3.1.min.js'><</script>
+  <link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
+  <link href='css/stylesheets.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h1> Welcome to Quirky London </h1>
+<h1><b>Quirky London</b></h1>
 <h2> The website bringing you the coolest, craziest and quirkiest events in London! </h2>
-</body>
-<img src='coppa-club-igloos.jpg' alt='coppa-club-igloos'>
-<p> Looking for unusual London events, off-kilter happenings and all manner of unique parties? No problem. This list of cool and quirky events in London covers the best of the city's unforgettable experiences. So without further ado; here are the best cool and quirky events in London worth knowing about.</p>
-
-<form role='form'>
+<div class='container'>
+<table width ='50%' align='left' border='0'>
+<tbody>
+<tr>
+<td>
+<div class='coppa-club'>
+<a href='page1.html'><b>Restaurants</b></a>
+<img src='coppa-club.jpg' alt='coppa-club' style='width:625px; height:600px'>
+</div>
+</td>
+<td>
+<div class='sky-garden'>
+<a href='page2.html'><B>Events</b></a>
+<img src='sky-garden.jpg' alt='sky-garden' style='width:625px; height:600px'>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='form'>
     <label for="email">Sign up for the latest deals and events</label>
     <input type="text" name="email" >
     <button class='btn btn-success' type="submit">Submit email</button>
   </form>
 </div>
-<h3> Reviews </h3>
-
-<h2> Dinner </h2>
-<p><a href='page1.html'>Food</a></p>
+<h2> Reviews </h2>
+<div class='col-sm-4'>
+<img src='reviewer-1.jpg' class='img-circle center-block' style='width:300px; height:250px'>
+<blockquote>
+<p>Quirky London has such great ideas! I always use it when I have friends visiting to find the coolest events around!</p>
+<small>Cindy Jackson, Artistic Director</small>
+</blockquote>
+  </div>
+  <div class='col-sm-4'>
+  <img src='reviewer-2.jpg' class='img-circle center-block' style='width:300px; height:250px'>
+  <blockquote>
+<p>I love the different restaurants and events on this website, they make great date night ideas for Victoria and me!</p>
+<small>David Beckham, Sports star</small>
+</blockquote>
+</div>
+  <div class='col-sm-4'>
+  <img src='reviewer-3.jpg' class='img-circle center-block' style='width:300px; height:250px'>
+  <blockquote>
+<p>The absolute best - wouldn't use any other website. Quirky London makes the City of London an even more fun place! </p>
+<small>Gee Daniels, Advertiser</small>
+</blockquote>
+  </div>
+<p>
+<div id='social-buttons'>
+<button class="btn btn-md btn-twitter">Twitter</button>
+<button class="btn btn-md btn-facebook">Facebook</button>
+<button class="btn btn-md btn-pinterest">Pinterest</button>
+</div>
+</p>
+</body>
